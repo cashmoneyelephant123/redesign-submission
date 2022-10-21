@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Responsive Redesign</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="my assignment write up">
+</head>
+
+<body>
+    <h1>MyFlorida</h1>
+    <div class="section" id="intro">
+        <div class="intro-text">
+            This is the official website for the Florida state government.
+            <br>
+        </div>
+
+        <div class="intro-text">
+            <a href="http://www.myflorida.com/" target="_blank">
+                Original Page
+            </a>
+        </div>
+
+        <div class="intro-text">
+            Today, we'll be improving the usability of the MyFlorida website while
+            maintaining responsiveness.
+        </div>
+
+        <div class="intro-text">
+            <a href="https://cashmoneyelephant123.github.io/responsive-redesign/" target="_blank">
+                Redesigned Page
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Usability Problems</h2>
+        <ol id="questions">
+            <ul>Learnability: easy to perform the basic task of searching - difficult to do anything else</ul>
+            <ul>Efficiency: very low because the user has to search for exactly what they are looking for - <br> no tabs
+                or
+                headers to give users a quick way to access information</ul>
+            <ul>Memorability: vacuously high because the site has few features - not much to forget how to do </ul>
+            <ul>Accessibility: WAVE only found a few errors and alerts, likely due to the barren nature of the site.<br>
+                The
+                main accessibility issue was the presence of > 0 tabindices, which affects the keyboard
+                accessibility.<br> I
+                agree with the findings because inspecting the HTML shows that many elements have a positive tabindex.
+            </ul>
+        </ol>
+    </div>
+
+    <div>
+        <h2>Visual Redesign</h2>
+
+        <div class="lowfi-container">
+            <div class="lowfi-item">
+                <h3>LowFi Tablet</h3>
+                <img class="lowfi-img" src="assets/lowfi-tablet.png" alt="lowfi tablet">
+            </div>
+            <div class="lowfi-item">
+                <h3>LowFi Web</h3>
+                <img class="lowfi-img" src="assets/lowfi-web.png" alt="lowfi web">
+            </div>
+            <div class="lowfi-item">
+                <h3>LowFi Mobile</h3>
+                <img class="lowfi-img" src="assets/lowfi-mobile.png" alt="lowfi mobile">
+            </div>
+        </div>
+
+        <div class="style">
+            <h3>Style Guide</h3>
+            <img class="style-img" src="assets/style-guide.png" alt="style guide">
+        </div>
+
+        <div class="highfi-container">
+            <div class="highfi-item">
+                <h3>HiFi Tablet</h3>
+                <img class="highfi-img" src="assets/hifi-tablet.png" alt="highfi tablet">
+            </div>
+            <div class="highfi-item">
+                <h3>HiFi Web</h3>
+                <img class="highfi-img" src="assets/hifi-web.png" alt="highfi web">
+            </div>
+            <div class="highfi-item">
+                <h3>HiFi Mobile</h3>
+                <img class="highfi-img" src="assets/hifi-mobile.png" alt="highfi mobile">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

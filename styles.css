@@ -1,0 +1,56 @@
+html {
+    margin: auto;
+    background-color: #F8EDE3;
+}
+
+
+body {
+    vertical-align: middle;
+    text-align: center;
+}
+
+ol,
+ul {
+    list-style-position: inside;
+    padding-bottom: 1%;
+}
+
+li {
+    padding-bottom: 1%;
+
+}
+
+.intro-text {
+    padding-bottom: 1%;
+}
+
+.lowfi-container,
+.highfi-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto
+}
+
+.lowfi-img,
+.highfi-img {
+    height: 80%;
+    width: 80%;
+}
+
+.style {
+    margin: auto;
+    width: 100%;
+}
+
+.style-img {
+    height: 30%;
+    width: 30%;
+}
+
+.section {
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    outline-offset: 10px;
+}
